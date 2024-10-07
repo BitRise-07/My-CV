@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1919;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+}
+
+.profile-pic {
+    
+    width: 100px;
+    height: 100px;
+   
+    margin-right: 20px;
+}
+
+.profile-pic img {
+    width: 120%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+.info {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.info h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #f39c12;
+}
+
+.info h2 {
+    margin: 5px 0 20px;
+    font-size: 18px;
+    color: #bdc3c7;
+}
+
+.contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: end;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+.image{
+height: 30px;
+width: 40px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.summary{
+    width: 30%;
+    
+    padding: 40px;
+    box-sizing: border-box; 
+}
+.summary h3{
+color: #aa792a;
+padding: 20px;
+}
+.summary1{
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.summary1 h3{
+    color: #aa792a;
+    padding: 20px;
+}
+hr{
+    height: 2px;
+    border: none;
+    background-color: #886836;
+}
